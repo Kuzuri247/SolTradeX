@@ -15,13 +15,13 @@ const Index = () => {
       <main className="flex-1">
         {/* Hero section */}
         <section className="relative overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-background z-0"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-secondary to-background z-0"></div>
           <div className="container relative z-10 py-16 md:py-24 lg:py-32 flex flex-col items-center text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter mb-6">
-              The Next-Gen <span className="text-primary">Steam</span> Marketplace
+              The Next-Gen <span className="text-[#2c4df6]">Steam</span> Marketplace
             </h1>
             <p className="text-muted-foreground text-lg md:text-xl max-w-2xl mb-8">
-              Buy and sell Steam collectibles with lower fees, powered by Solana blockchain technology
+              Buy and sell Steam collectibles with lower fees, powered by Solana
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="gap-2" asChild>
@@ -49,7 +49,7 @@ const Index = () => {
             <Link to="/skins" className="group">
               <div className="bg-card hover:bg-card/80 rounded-lg border p-6 h-full flex flex-col items-center text-center transition-colors">
                 <div className="h-16 w-16 rounded-full bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
-                  <Package className="h-8 w-8 text-primary" />
+                  <Package className="h-8 w-8 text-[#2c4df6]" />
                 </div>
                 <h3 className="text-xl font-medium mb-2">Game Skins</h3>
                 <p className="text-muted-foreground text-sm">
@@ -61,7 +61,7 @@ const Index = () => {
             <Link to="/cards" className="group">
               <div className="bg-card hover:bg-card/80 rounded-lg border p-6 h-full flex flex-col items-center text-center transition-colors">
                 <div className="h-16 w-16 rounded-full bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
-                  <CreditCard className="h-8 w-8 text-primary" />
+                  <CreditCard className="h-8 w-8 text-[#2c4df6]" />
                 </div>
                 <h3 className="text-xl font-medium mb-2">Trading Cards</h3>
                 <p className="text-muted-foreground text-sm">
@@ -73,7 +73,7 @@ const Index = () => {
             <Link to="/customization" className="group">
               <div className="bg-card hover:bg-card/80 rounded-lg border p-6 h-full flex flex-col items-center text-center transition-colors">
                 <div className="h-16 w-16 rounded-full bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
-                  <Palette className="h-8 w-8 text-primary" />
+                  <Palette className="h-8 w-8 text-[#2c4df6]" />
                 </div>
                 <h3 className="text-xl font-medium mb-2">Customization</h3>
                 <p className="text-muted-foreground text-sm">
@@ -85,15 +85,15 @@ const Index = () => {
         </section>
         
         {/* Features */}
-        <section className="bg-muted py-16">
+        <section className="bg-gradient-to-br from-secondary to-background py-16">
           <div className="container">
             <h2 className="text-3xl font-bold text-center mb-12">
-              Why Choose SkinVault?
+              Why Choose SolTradeX?
             </h2>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
               <div className="bg-card rounded-lg p-6">
-                <div className="font-bold text-4xl text-primary mb-4">1</div>
+                <div className="font-bold text-4xl text-[#2c4df6] mb-4">1</div>
                 <h3 className="text-lg font-medium mb-2">Lower Fees</h3>
                 <p className="text-muted-foreground text-sm">
                   Save money with our Solana-powered fee structure that's lower than Steam Market
@@ -101,7 +101,7 @@ const Index = () => {
               </div>
               
               <div className="bg-card rounded-lg p-6">
-                <div className="font-bold text-4xl text-primary mb-4">2</div>
+                <div className="font-bold text-4xl text-[#2c4df6] mb-4">2</div>
                 <h3 className="text-lg font-medium mb-2">Secure Trading</h3>
                 <p className="text-muted-foreground text-sm">
                   All transactions are handled through official Steam APIs for maximum security
@@ -109,7 +109,7 @@ const Index = () => {
               </div>
               
               <div className="bg-card rounded-lg p-6">
-                <div className="font-bold text-4xl text-primary mb-4">3</div>
+                <div className="font-bold text-4xl text-[#2c4df6] mb-4">3</div>
                 <h3 className="text-lg font-medium mb-2">Fast Withdrawals</h3>
                 <p className="text-muted-foreground text-sm">
                   Get your funds instantly with Solana's ultra-fast blockchain technology
@@ -117,7 +117,7 @@ const Index = () => {
               </div>
               
               <div className="bg-card rounded-lg p-6">
-                <div className="font-bold text-4xl text-primary mb-4">4</div>
+                <div className="font-bold text-4xl text-[#2c4df6] mb-4">4</div>
                 <h3 className="text-lg font-medium mb-2">User-Friendly</h3>
                 <p className="text-muted-foreground text-sm">
                   Intuitive interface designed for both crypto natives and newcomers

@@ -20,7 +20,7 @@ const Support = () => {
             Support Center
           </h1>
           <p className="text-muted-foreground mb-12 text-center max-w-2xl mx-auto">
-            Need help with SkinVault? Our support team is here to assist you with any questions or issues.
+            Need help with SolTradeX? Our support team is here to assist you with any questions or issues.
           </p>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
@@ -33,7 +33,7 @@ const Support = () => {
                 Get help via email from our support team
               </p>
               <a href="mailto:support@skinvault.example" className="text-primary text-sm hover:underline">
-                support@skinvault.example
+                rs4515080@gmail.com
               </a>
             </div>
             

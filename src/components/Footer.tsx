@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
   return (
     <footer className={`border-t bg-card ${isMobile ? 'pb-16' : ''}`}>
       <div className="container py-8 md:py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-20">
           <div className="space-y-4">
             <SkinvaultLogo />
             <p className="text-sm text-muted-foreground max-w-xs">
@@ -64,7 +64,7 @@ const Footer: React.FC = () => {
             <h3 className="text-lg font-medium mb-4">Connect</h3>
             <ul className="space-y-2">
               <li>
-                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                <a href="https://x.com/RahulSingh38128" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
                   Twitter
                 </a>
               </li>

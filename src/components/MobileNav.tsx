@@ -1,7 +1,7 @@
 
 import React from "react";
 import { Link } from "react-router-dom";
-import { Clock, LogIn, Package, Paintbrush, Wallet } from "lucide-react";
+import { GalleryHorizontalEnd, LogIn, Shirt, Paintbrush, Wallet } from "lucide-react";
 import SkinvaultLogo from "./SkinvaultLogo";
 import { useIsMobile } from "@/hooks/use-mobile";
 import { Button } from "@/components/ui/button";
@@ -30,7 +30,7 @@ const MobileNav: React.FC = () => {
             <Button 
               asChild 
               size="icon"
-              className="bg-[#1b2838] hover:bg-[#2a3f5a] border border-[#2a3f5a]"
+              className="bg-[#1b3829] hover:bg-[#2a3f5a] border border-[#2a3f5a] gap-2"
             >
               <Link to="/login">
                 <LogIn className="h-5 w-5" />
@@ -47,7 +47,7 @@ const MobileNav: React.FC = () => {
             to="/skins" 
             className="flex flex-col items-center justify-center text-muted-foreground hover:text-primary"
           >
-            <Package className="h-5 w-5" />
+            <Shirt className="h-5 w-5" />
             <span className="text-xs mt-1">Skins</span>
           </Link>
           
@@ -55,7 +55,7 @@ const MobileNav: React.FC = () => {
             to="/cards" 
             className="flex flex-col items-center justify-center text-muted-foreground hover:text-primary"
           >
-            <Clock className="h-5 w-5" />
+            <GalleryHorizontalEnd className="h-5 w-5" />
             <span className="text-xs mt-1">Cards</span>
           </Link>
           

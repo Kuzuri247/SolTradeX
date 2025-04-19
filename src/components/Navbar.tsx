@@ -5,6 +5,9 @@ import { Menu, LogIn, Wallet } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import SkinvaultLogo from "./SkinvaultLogo";
 import { useIsMobile } from "@/hooks/use-mobile";
+import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
+
+// import "@solana/wallet-adapter-react-ui/styles.css";
 
 const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -17,10 +20,10 @@ const Navbar: React.FC = () => {
   return (
     <header className="sticky top-0 z-40 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between">
-        <div className="flex items-center gap-8">
+        <div className="flex items-center gap-16">
           <SkinvaultLogo />
           
-          <nav className="hidden md:flex gap-6">
+          <nav className="hidden md:flex gap-16">
             <Link 
               to="/skins" 
               className="text-muted-foreground hover:text-foreground transition-colors"
@@ -53,18 +56,9 @@ const Navbar: React.FC = () => {
         </div>
 
         <div className="flex items-center gap-4">
-          <Button 
-            asChild 
-            variant="outline" 
-            className="gap-2 border-[#8052F4] text-[#8052F4] hover:bg-[#8052F4]/10"
-          >
-            <div>
-              <Wallet className="h-4 w-4" />
-              <span>Connect Wallet</span>
-            </div>
-          </Button>
+        <WalletMultiButton />
 
-          <Button asChild className="gap-2 bg-[#1b2838] hover:bg-[#2a3f5a] border border-[#2a3f5a]">
+          <Button asChild className="gap-2 bg-[#2c4df6] hover:bg-[#3b82f6] border border-[#2a3f5a]">
             <Link to="/login">
               <LogIn className="h-4 w-4" />
               <span>Login with Steam</span>

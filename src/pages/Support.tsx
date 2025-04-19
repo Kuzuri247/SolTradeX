@@ -1,4 +1,3 @@
-
 import React from "react";
 import Navbar from "@/components/Navbar";
 import MobileNav from "@/components/MobileNav";
@@ -25,40 +24,40 @@ const Support = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
             <div className="bg-card border rounded-lg p-6 text-center">
-              <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Mail className="h-6 w-6 text-primary" />
+              <div className="w-12 h-12 bg-gradient-to-br from-[#7F00FF] to-[#00FFFF] rounded-full flex items-center justify-center mx-auto mb-4">
+                <Mail className="h-6 w-6 text-[#7F00FF]" />
               </div>
               <h3 className="text-lg font-medium mb-2">Email Support</h3>
               <p className="text-muted-foreground text-sm mb-4">
                 Get help via email from our support team
               </p>
-              <a href="mailto:support@skinvault.example" className="text-primary text-sm hover:underline">
+              <a href="mailto:support@skinvault.example" className="text-[#7F00FF] text-sm hover:underline">
                 rs4515080@gmail.com
               </a>
             </div>
             
             <div className="bg-card border rounded-lg p-6 text-center">
-              <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <MessageSquare className="h-6 w-6 text-primary" />
+              <div className="w-12 h-12 bg-gradient-to-br from-[#7F00FF] to-[#00FFFF] rounded-full flex items-center justify-center mx-auto mb-4">
+                <MessageSquare className="h-6 w-6 text-[#7F00FF]" />
               </div>
               <h3 className="text-lg font-medium mb-2">Discord Community</h3>
               <p className="text-muted-foreground text-sm mb-4">
                 Join our Discord for community support
               </p>
-              <a href="https://discord.gg/example" target="_blank" rel="noopener noreferrer" className="text-primary text-sm hover:underline">
+              <a href="https://discord.gg/example" target="_blank" rel="noopener noreferrer" className="text-[#7F00FF] text-sm hover:underline">
                 Join Discord Server
               </a>
             </div>
             
             <div className="bg-card border rounded-lg p-6 text-center">
-              <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <HelpCircle className="h-6 w-6 text-primary" />
+              <div className="w-12 h-12 bg-gradient-to-br from-[#7F00FF] to-[#00FFFF] rounded-full flex items-center justify-center mx-auto mb-4">
+                <HelpCircle className="h-6 w-6 text-[#7F00FF]" />
               </div>
               <h3 className="text-lg font-medium mb-2">FAQ</h3>
               <p className="text-muted-foreground text-sm mb-4">
                 Browse our frequently asked questions
               </p>
-              <a href="/faq" className="text-primary text-sm hover:underline">
+              <a href="/faq" className="text-[#7F00FF] text-sm hover:underline">
                 View FAQ
               </a>
             </div>

@@ -1,4 +1,3 @@
-
 import React from "react";
 import Navbar from "@/components/Navbar";
 import MobileNav from "@/components/MobileNav";
@@ -23,7 +22,7 @@ const Skins = () => {
               <div className="p-4">
                 <div className="h-5 bg-muted rounded animate-pulse mb-2" />
                 <div className="h-4 bg-muted rounded w-1/2 animate-pulse mb-3" />
-                <div className="h-6 bg-primary/20 rounded animate-pulse" />
+                <div className="h-6 bg-gradient-to-br from-[#7F00FF] to-[#00FFFF] rounded animate-pulse" />
               </div>
             </div>
           ))}

@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Link } from "react-router-dom";
 import { GalleryHorizontalEnd, LogIn, Shirt, Paintbrush, Wallet } from "lucide-react";
@@ -45,7 +44,7 @@ const MobileNav: React.FC = () => {
         <div className="grid grid-cols-4 h-16">
           <Link 
             to="/skins" 
-            className="flex flex-col items-center justify-center text-muted-foreground hover:text-primary"
+            className="flex flex-col items-center justify-center text-muted-foreground hover:text-[#7F00FF]"
           >
             <Shirt className="h-5 w-5" />
             <span className="text-xs mt-1">Skins</span>
@@ -53,7 +52,7 @@ const MobileNav: React.FC = () => {
           
           <Link 
             to="/cards" 
-            className="flex flex-col items-center justify-center text-muted-foreground hover:text-primary"
+            className="flex flex-col items-center justify-center text-muted-foreground hover:text-[#7F00FF]"
           >
             <GalleryHorizontalEnd className="h-5 w-5" />
             <span className="text-xs mt-1">Cards</span>
@@ -61,7 +60,7 @@ const MobileNav: React.FC = () => {
           
           <Link 
             to="/customization" 
-            className="flex flex-col items-center justify-center text-muted-foreground hover:text-primary"
+            className="flex flex-col items-center justify-center text-muted-foreground hover:text-[#7F00FF]"
           >
             <Paintbrush className="h-5 w-5" />
             <span className="text-xs mt-1">Custom</span>
@@ -69,7 +68,7 @@ const MobileNav: React.FC = () => {
           
           <Link 
             to="/login" 
-            className="flex flex-col items-center justify-center text-muted-foreground hover:text-primary"
+            className="flex flex-col items-center justify-center text-muted-foreground hover:text-[#7F00FF]"
           >
             <LogIn className="h-5 w-5" />
             <span className="text-xs mt-1">Login</span>
